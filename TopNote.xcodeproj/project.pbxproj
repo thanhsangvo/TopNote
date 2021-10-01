@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9238A4026EB750A008ACBCD /* TopNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9238A3226EB7506008ACBCD /* TopNoteApp.swift */; };
+		E9238A4126EB750A008ACBCD /* TopNoteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9238A3226EB7506008ACBCD /* TopNoteApp.swift */; };
+		E9238A4226EB750A008ACBCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9238A3326EB7506008ACBCD /* ContentView.swift */; };
+		E9238A4326EB750A008ACBCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9238A3326EB7506008ACBCD /* ContentView.swift */; };
+		E9238A4426EB750A008ACBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9238A3426EB750A008ACBCD /* Assets.xcassets */; };
+		E9238A4526EB750A008ACBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9238A3426EB750A008ACBCD /* Assets.xcassets */; };
+		E9238A5426EB7927008ACBCD /* Walkthrough1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9238A5326EB7927008ACBCD /* Walkthrough1.swift */; };
+		E925450926EC99C4006E8E2A /* ChooseTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925450826EC99C4006E8E2A /* ChooseTimeView.swift */; };
+		E925450A26EC99C4006E8E2A /* ChooseTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925450826EC99C4006E8E2A /* ChooseTimeView.swift */; };
+		E925450C26EC9B4B006E8E2A /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925450B26EC9B4B006E8E2A /* RecordView.swift */; };
+		E925450D26EC9B4B006E8E2A /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925450B26EC9B4B006E8E2A /* RecordView.swift */; };
+		E9AAC2FF26EC72C300D81245 /* NewNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAC2FE26EC72C300D81245 /* NewNotesView.swift */; };
+		E9AAC30026EC72C300D81245 /* NewNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAC2FE26EC72C300D81245 /* NewNotesView.swift */; };
+		E9AAC30226EC76E700D81245 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAC30126EC76E700D81245 /* WritingView.swift */; };
+		E9AAC30326EC76E700D81245 /* WritingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AAC30126EC76E700D81245 /* WritingView.swift */; };
+		E9B8F6F626EBB78500FC455E /* VerityCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6F526EBB78500FC455E /* VerityCodeView.swift */; };
+		E9B8F6F726EBB78500FC455E /* VerityCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6F526EBB78500FC455E /* VerityCodeView.swift */; };
+		E9B8F6F926EBBC0200FC455E /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6F826EBBC0200FC455E /* EditAccountView.swift */; };
+		E9B8F6FA26EBBC0200FC455E /* EditAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6F826EBBC0200FC455E /* EditAccountView.swift */; };
+		E9B8F6FC26EBC10800FC455E /* AccountRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6FB26EBC10800FC455E /* AccountRecords.swift */; };
+		E9B8F6FD26EBC10800FC455E /* AccountRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6FB26EBC10800FC455E /* AccountRecords.swift */; };
+		E9B8F6FF26EBC2E900FC455E /* ChooseYourPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6FE26EBC2E900FC455E /* ChooseYourPlan.swift */; };
+		E9B8F70026EBC2E900FC455E /* ChooseYourPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8F6FE26EBC2E900FC455E /* ChooseYourPlan.swift */; };
+		E9C11C7726EC40FC00F4B633 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C11C7626EC40FC00F4B633 /* HomeView.swift */; };
+		E9C11C7826EC40FC00F4B633 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C11C7626EC40FC00F4B633 /* HomeView.swift */; };
+		E9EC49D126EB87510068BD46 /* Walkthrough2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC49D026EB87510068BD46 /* Walkthrough2.swift */; };
+		E9EC49D326EB8A810068BD46 /* Walkthrough3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC49D226EB8A810068BD46 /* Walkthrough3.swift */; };
+		E9EC49D526EB90C20068BD46 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC49D426EB90C10068BD46 /* SignInView.swift */; };
+		E9EC49D626EB90CB0068BD46 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC49D426EB90C10068BD46 /* SignInView.swift */; };
+		E9EC49D926EBA4570068BD46 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC49D826EBA4570068BD46 /* SignUpView.swift */; };
+		E9EC49DB26EBA7DE0068BD46 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EC49DA26EBA7DE0068BD46 /* ForgotPasswordView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E9238A3226EB7506008ACBCD /* TopNoteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopNoteApp.swift; sourceTree = "<group>"; };
+		E9238A3326EB7506008ACBCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9238A3426EB750A008ACBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9238A3926EB750A008ACBCD /* TopNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9238A3F26EB750A008ACBCD /* TopNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9238A5126EB781B008ACBCD /* TopNote--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TopNote--iOS--Info.plist"; sourceTree = "<group>"; };
+		E9238A5326EB7927008ACBCD /* Walkthrough1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkthrough1.swift; sourceTree = "<group>"; };
+		E925450826EC99C4006E8E2A /* ChooseTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseTimeView.swift; sourceTree = "<group>"; };
+		E925450B26EC9B4B006E8E2A /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		E9AAC2FE26EC72C300D81245 /* NewNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotesView.swift; sourceTree = "<group>"; };
+		E9AAC30126EC76E700D81245 /* WritingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingView.swift; sourceTree = "<group>"; };
+		E9B8F6F526EBB78500FC455E /* VerityCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerityCodeView.swift; sourceTree = "<group>"; };
+		E9B8F6F826EBBC0200FC455E /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
+		E9B8F6FB26EBC10800FC455E /* AccountRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRecords.swift; sourceTree = "<group>"; };
+		E9B8F6FE26EBC2E900FC455E /* ChooseYourPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseYourPlan.swift; sourceTree = "<group>"; };
+		E9C11C7626EC40FC00F4B633 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E9EC49D026EB87510068BD46 /* Walkthrough2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkthrough2.swift; sourceTree = "<group>"; };
+		E9EC49D226EB8A810068BD46 /* Walkthrough3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkthrough3.swift; sourceTree = "<group>"; };
+		E9EC49D426EB90C10068BD46 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		E9EC49D826EBA4570068BD46 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		E9EC49DA26EBA7DE0068BD46 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9238A3626EB750A008ACBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9238A3C26EB750A008ACBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9238A2C26EB7505008ACBCD = {
+			isa = PBXGroup;
+			children = (
+				E9238A5126EB781B008ACBCD /* TopNote--iOS--Info.plist */,
+				E9238A3126EB7506008ACBCD /* Shared */,
+				E9238A3A26EB750A008ACBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9238A3126EB7506008ACBCD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				E9238A5226EB78D9008ACBCD /* Walkthough */,
+				E9EC49D726EBA4090068BD46 /* Sign In -Sign Up */,
+				E9238A3226EB7506008ACBCD /* TopNoteApp.swift */,
+				E9238A3326EB7506008ACBCD /* ContentView.swift */,
+				E9EC49DA26EBA7DE0068BD46 /* ForgotPasswordView.swift */,
+				E9B8F6F526EBB78500FC455E /* VerityCodeView.swift */,
+				E9B8F6F826EBBC0200FC455E /* EditAccountView.swift */,
+				E9B8F6FB26EBC10800FC455E /* AccountRecords.swift */,
+				E9B8F6FE26EBC2E900FC455E /* ChooseYourPlan.swift */,
+				E9C11C7626EC40FC00F4B633 /* HomeView.swift */,
+				E9AAC2FE26EC72C300D81245 /* NewNotesView.swift */,
+				E9AAC30126EC76E700D81245 /* WritingView.swift */,
+				E925450826EC99C4006E8E2A /* ChooseTimeView.swift */,
+				E9238A3426EB750A008ACBCD /* Assets.xcassets */,
+				E925450B26EC9B4B006E8E2A /* RecordView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		E9238A3A26EB750A008ACBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9238A3926EB750A008ACBCD /* TopNote.app */,
+				E9238A3F26EB750A008ACBCD /* TopNote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9238A5226EB78D9008ACBCD /* Walkthough */ = {
+			isa = PBXGroup;
+			children = (
+				E9238A5326EB7927008ACBCD /* Walkthrough1.swift */,
+				E9EC49D026EB87510068BD46 /* Walkthrough2.swift */,
+				E9EC49D226EB8A810068BD46 /* Walkthrough3.swift */,
+			);
+			path = Walkthough;
+			sourceTree = "<group>";
+		};
+		E9EC49D726EBA4090068BD46 /* Sign In -Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				E9EC49D426EB90C10068BD46 /* SignInView.swift */,
+				E9EC49D826EBA4570068BD46 /* SignUpView.swift */,
+			);
+			path = "Sign In -Sign Up";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9238A3826EB750A008ACBCD /* TopNote (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9238A4826EB750A008ACBCD /* Build configuration list for PBXNativeTarget "TopNote (iOS)" */;
+			buildPhases = (
+				E9238A3526EB750A008ACBCD /* Sources */,
+				E9238A3626EB750A008ACBCD /* Frameworks */,
+				E9238A3726EB750A008ACBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TopNote (iOS)";
+			productName = "TopNote (iOS)";
+			productReference = E9238A3926EB750A008ACBCD /* TopNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9238A3E26EB750A008ACBCD /* TopNote (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9238A4B26EB750A008ACBCD /* Build configuration list for PBXNativeTarget "TopNote (macOS)" */;
+			buildPhases = (
+				E9238A3B26EB750A008ACBCD /* Sources */,
+				E9238A3C26EB750A008ACBCD /* Frameworks */,
+				E9238A3D26EB750A008ACBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TopNote (macOS)";
+			productName = "TopNote (macOS)";
+			productReference = E9238A3F26EB750A008ACBCD /* TopNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9238A2D26EB7505008ACBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					E9238A3826EB750A008ACBCD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					E9238A3E26EB750A008ACBCD = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E9238A3026EB7505008ACBCD /* Build configuration list for PBXProject "TopNote" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9238A2C26EB7505008ACBCD;
+			productRefGroup = E9238A3A26EB750A008ACBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9238A3826EB750A008ACBCD /* TopNote (iOS) */,
+				E9238A3E26EB750A008ACBCD /* TopNote (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9238A3726EB750A008ACBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9238A4426EB750A008ACBCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9238A3D26EB750A008ACBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9238A4526EB750A008ACBCD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9238A3526EB750A008ACBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9EC49D526EB90C20068BD46 /* SignInView.swift in Sources */,
+				E9B8F6FC26EBC10800FC455E /* AccountRecords.swift in Sources */,
+				E9C11C7726EC40FC00F4B633 /* HomeView.swift in Sources */,
+				E925450C26EC9B4B006E8E2A /* RecordView.swift in Sources */,
+				E9B8F6FF26EBC2E900FC455E /* ChooseYourPlan.swift in Sources */,
+				E9EC49D326EB8A810068BD46 /* Walkthrough3.swift in Sources */,
+				E9EC49DB26EBA7DE0068BD46 /* ForgotPasswordView.swift in Sources */,
+				E9238A5426EB7927008ACBCD /* Walkthrough1.swift in Sources */,
+				E9B8F6F926EBBC0200FC455E /* EditAccountView.swift in Sources */,
+				E9AAC30226EC76E700D81245 /* WritingView.swift in Sources */,
+				E9EC49D926EBA4570068BD46 /* SignUpView.swift in Sources */,
+				E925450926EC99C4006E8E2A /* ChooseTimeView.swift in Sources */,
+				E9238A4226EB750A008ACBCD /* ContentView.swift in Sources */,
+				E9238A4026EB750A008ACBCD /* TopNoteApp.swift in Sources */,
+				E9AAC2FF26EC72C300D81245 /* NewNotesView.swift in Sources */,
+				E9B8F6F626EBB78500FC455E /* VerityCodeView.swift in Sources */,
+				E9EC49D126EB87510068BD46 /* Walkthrough2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9238A3B26EB750A008ACBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B8F6F726EBB78500FC455E /* VerityCodeView.swift in Sources */,
+				E925450D26EC9B4B006E8E2A /* RecordView.swift in Sources */,
+				E925450A26EC99C4006E8E2A /* ChooseTimeView.swift in Sources */,
+				E9AAC30026EC72C300D81245 /* NewNotesView.swift in Sources */,
+				E9EC49D626EB90CB0068BD46 /* SignInView.swift in Sources */,
+				E9AAC30326EC76E700D81245 /* WritingView.swift in Sources */,
+				E9B8F70026EBC2E900FC455E /* ChooseYourPlan.swift in Sources */,
+				E9238A4326EB750A008ACBCD /* ContentView.swift in Sources */,
+				E9238A4126EB750A008ACBCD /* TopNoteApp.swift in Sources */,
+				E9C11C7826EC40FC00F4B633 /* HomeView.swift in Sources */,
+				E9B8F6FD26EBC10800FC455E /* AccountRecords.swift in Sources */,
+				E9B8F6FA26EBBC0200FC455E /* EditAccountView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9238A4626EB750A008ACBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9238A4726EB750A008ACBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E9238A4926EB750A008ACBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TopNote--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhsangvo.TopNote;
+				PRODUCT_NAME = TopNote;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9238A4A26EB750A008ACBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TopNote--iOS--Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhsangvo.TopNote;
+				PRODUCT_NAME = TopNote;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9238A4C26EB750A008ACBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhsangvo.TopNote;
+				PRODUCT_NAME = TopNote;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E9238A4D26EB750A008ACBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thanhsangvo.TopNote;
+				PRODUCT_NAME = TopNote;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9238A3026EB7505008ACBCD /* Build configuration list for PBXProject "TopNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9238A4626EB750A008ACBCD /* Debug */,
+				E9238A4726EB750A008ACBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9238A4826EB750A008ACBCD /* Build configuration list for PBXNativeTarget "TopNote (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9238A4926EB750A008ACBCD /* Debug */,
+				E9238A4A26EB750A008ACBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9238A4B26EB750A008ACBCD /* Build configuration list for PBXNativeTarget "TopNote (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9238A4C26EB750A008ACBCD /* Debug */,
+				E9238A4D26EB750A008ACBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9238A2D26EB7505008ACBCD /* Project object */;
+}
